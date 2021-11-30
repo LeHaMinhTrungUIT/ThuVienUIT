@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar-nav li {
+  display: inline-block;
+  margin-right: 10px;
+  }
+  
+.main-content {
+  margin-top: 20px;
+  width: 68%;
+  float: left;
+  box-sizing: border-box;
+  margin-right: 10px;
+  min-height: 250px;
+  background: #ddd;
+  border: 1px solid #444;
+  margin-bottom: 20px;
+  }
+.main-sidebar {
+  margin-top: 20px;
+  width: 30%;
+  float: right;
+  box-sizing: border-box;
+  min-height: 250px;
+  background: #eee;
+  border: 1px solid #444;
+  margin-bottom: 20px;
+  }
+.footer {
+  clear: both;
+  min-height: 100px;
+  background: #eee;
+  border: 1px solid #444;
+  }
