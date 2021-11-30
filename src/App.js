@@ -13,7 +13,7 @@ function App() {
       </header>
 
       <Content />
-      <Slidebar />
+      <Sidebar />
       <Footer />
     </div>
   );

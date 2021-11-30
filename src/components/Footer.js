@@ -4,7 +4,7 @@ function Footer() {
 
 return (
 <footer class="footer">
-Footer
+<h1>Tải app thư viện UIT ngay.</h1>
 </footer>
 );
 }
