@@ -5,6 +5,7 @@ import Content from './components/Content';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import NewsBulletin from './components/NewsBulletin/NewsBulletin';
+import ContentNews from './components/NewsBulletin/ContentNews/ContentNews';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <header className="App-header">
         <Header />        
       </header>
-      <NewsBulletin />
+      <ContentNews/>
+      <NewsBulletin/>
       <Content />
       <Sidebar />
       <Footer />
