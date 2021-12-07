@@ -2,7 +2,205 @@
 .Topic {
     width: 1198px;
     height: 1620px;
-    background-color: blue;
+    background-color: white;
     margin-left: 74px;
     margin-top: 94px;
+}
+
+.Sidebar {
+    width: 175px;
+    height: 585px;
+    background-color: white;
+    text-align: left;
+    float: left;
+}
+
+.text1_Sidebar {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+margin-left: 40px;
+
+color: #1C1C1C;
+}
+
+.btn_Sidebar {
+    margin-top: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+/*font-weight: bold;*/
+font-size: 16px;
+line-height: 40px;
+/* or 281% */
+color: #000000;
+}
+
+
+
+/* CSS */
+.button-33 {
+  background-color: white;
+  border-radius: 100px;
+  
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+ 
+  text-align: left;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.button-33:active {
+    font-weight: bold;
+  }
+
+.button-33:focus {
+    font-weight: bold;
+}
+
+.button-33:visited {
+    font-weight: bold;
+}
+
+.Content_Topic {
+    width: 966px;
+    height: 100%;
+    background-color: white;
+    margin-left: auto;
+}
+
+.Content1_Topic {
+    height: 243px;
+    width: 100%;
+    background: white;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(102, 101, 101, 0.25);
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 59px;
+}
+
+.Content2_Topic {
+    width: 479px;
+    height: 224px;
+    background-color: white;
+    margin-top: 16px;
+    margin-left: 54px;
+    float: left;
+    line-height: 1;
+}
+
+.text1_Content_Topic {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.text2_Content_Topic {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height */
+/* 600 */
+color: #718096;
+}
+
+.text3_Content_Topic {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height */
+
+/* 800 */
+color: #2D3748;
+
+}
+
+.text4_Content_Topic {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+
+/* 600 */
+color: #718096;
+
+}
+
+.text5_Content_Topic {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+
+/* 600 */
+color: #718096;
+}
+
+.Content3_Topic {
+    width: 431px;
+    height: 241px;
+    background-color: pink;
+    margin-left: auto;
+    background: url(./images/Untitled8.png);
+}
+
+.Content4_Topic {
+    width: 431px;
+    height: 241px;
+    background-color: pink;
+    margin-left: auto;
+    background: url(./images/Untitled9.png);
+}
+
+.Content5_Topic {
+    width: 431px;
+    height: 241px;
+    background-color: pink;
+    margin-left: auto;
+    background: url(./images/Untitled10.png);
+}
+
+.Content6_Topic {
+    width: 431px;
+    height: 241px;
+    background-color: pink;
+    margin-left: auto;
+    background: url(./images/Untitled11.png);
+}
+
+.Content7_Topic {
+    width: 431px;
+    height: 241px;
+    background-color: pink;
+    margin-left: auto;
+    background: url(./images/Untitled12.png);
 }

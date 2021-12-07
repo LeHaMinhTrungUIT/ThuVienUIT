@@ -7,6 +7,7 @@ import { BsBookmarkHeart } from 'react-icons/bs';
 import { BsCaretUp } from 'react-icons/bs';
 import { BsEye } from 'react-icons/bs';
 import { HiOutlineChatAlt2 } from 'react-icons/hi';
+import Topic from './Topic';
 
 
 
@@ -295,10 +296,10 @@ class NewsBulletin extends React.Component {
                   }}>
                    <BsFillCaretRightFill size={50} color='slategray'/>
                   </button>
-                </div>
-                
+                </div>    
               </div>
             </div>
+            <Topic/>
           </div>
         );
     }
