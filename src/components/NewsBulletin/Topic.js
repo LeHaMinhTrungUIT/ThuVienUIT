@@ -1,6 +1,8 @@
 import React from 'react';
 import './Topic.css';
 
+/* npm install classnames */
+
 /* npm install react-icons --save */
 import { BsBookmark } from 'react-icons/bs';
 import { BsCaretUp } from 'react-icons/bs';
@@ -108,7 +110,7 @@ class Topic extends React.Component {
                          <text className="text4_Content_Topic">point of using Lorem Ipsum is that.... <br/> <br/> </text>
                          <text className="text5_Content_Topic">May 20th 2020  <br/> </text>
                          <text className="text5_Content_Topic">
-                             <br/>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
+                             <br/> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
                              &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp; 
                              15 
                              &emsp; &nbsp; &nbsp;   &nbsp;
@@ -245,7 +247,7 @@ class Topic extends React.Component {
                              
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         );

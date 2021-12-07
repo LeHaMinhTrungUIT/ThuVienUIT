@@ -28,4 +28,4 @@ class Pagination extends React.Component {
         );
     }
 }
-export default Pagination
+export default Pagination 

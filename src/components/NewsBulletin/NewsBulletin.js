@@ -101,7 +101,7 @@ class NewsBulletin extends React.Component {
                           <br/> <br/> 
                             May 20th 2020 <br/>
                             6 phút đọc 
-                             &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 
+                            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 
                             15
                             &emsp; &nbsp; &nbsp;   &nbsp;
                             115
@@ -300,8 +300,10 @@ class NewsBulletin extends React.Component {
                 </div>    
               </div>
             </div>
+            <div>
             <Topic/>
             <Pagination/>
+            </div>
           </div>
         );
     }
