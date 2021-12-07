@@ -1,7 +1,7 @@
 
 .Topic {
     width: 1198px;
-    height: 1620px;
+    height: 1500px;
     background-color: white;
     margin-left: 74px;
     margin-top: 94px;
@@ -168,7 +168,7 @@ color: #718096;
 .Content3_Topic {
     width: 431px;
     height: 241px;
-    background-color: pink;
+    background-color: white;
     margin-left: auto;
     background: url(./images/Untitled8.png);
 }

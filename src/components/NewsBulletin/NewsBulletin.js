@@ -8,6 +8,7 @@ import { BsCaretUp } from 'react-icons/bs';
 import { BsEye } from 'react-icons/bs';
 import { HiOutlineChatAlt2 } from 'react-icons/hi';
 import Topic from './Topic';
+import Pagination from './Pagination'
 
 
 
@@ -300,6 +301,7 @@ class NewsBulletin extends React.Component {
               </div>
             </div>
             <Topic/>
+            <Pagination/>
           </div>
         );
     }
