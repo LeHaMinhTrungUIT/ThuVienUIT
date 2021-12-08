@@ -3,9 +3,14 @@ import './ContentNews.css';
 import { BsFillCaretLeftFill } from 'react-icons/bs';
 import { BsFillCaretRightFill } from 'react-icons/bs';
 import { BsBookmarkHeart } from 'react-icons/bs';
+import { BsBookmark } from 'react-icons/bs';
 import { BsCaretUp } from 'react-icons/bs';
 import { BsEye } from 'react-icons/bs';
 import { HiOutlineChatAlt2 } from 'react-icons/hi';
+import Chats from './Chats';
+import { BsCaretDown } from 'react-icons/bs';
+import { BsShare } from 'react-icons/bs';
+
 
 class ContentNews extends React.Component {
 
@@ -18,6 +23,17 @@ class ContentNews extends React.Component {
     render() {
         return (
             <div className="ContentNews">
+              <div>
+              <div class="sidenav">
+              <BsCaretUp size={40} color='slategray' style={{ marginTop: -5, marginLeft: 15}}/>
+              <a>48</a>
+              <BsCaretDown size={40} color='slategray' style={{ marginTop: -10, marginLeft: 15}}/>
+              <HiOutlineChatAlt2 size={35} color='slategray' style={{marginLeft: 17, marginTop: 15 }}/>
+              <a style={{fontSize: 20, marginLeft: 8}}>48</a>
+              <BsBookmark size={25} color='slategray' style={{marginLeft: 23 }}/>
+              <BsShare size={25} color='slategray' style={{marginLeft: 23, marginTop: 15}}/>
+
+              </div>
                 <div className="Content">
                     <div className="Content1">
                         <text className="text1">Sách</text>
@@ -103,6 +119,7 @@ class ContentNews extends React.Component {
                         </text>
                     </div>
                 </div>
+              </div>
 
                 {/**** BÀI VIẾT CÙNG CHỦ ĐỀ*****/}
             <div className="DoNotMiss">
@@ -349,7 +366,8 @@ class ContentNews extends React.Component {
                 </div>    
               </div>
             </div>
-            </div>
+            <Chats/>
+          </div>
         );
     }
 }
