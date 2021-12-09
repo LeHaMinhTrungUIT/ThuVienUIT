@@ -34,7 +34,7 @@ class NewsBulletin extends React.Component {
                     Bài Viết Nổi Bật <br/>
                   </text>
 
-                  <a className="text2_FA_Content" href="https://www.w3schools.com/">
+                  <a className="text2_FA_Content" href="">
                     World’s Most Dangerous Technology Ever Made. <br/>
                   </a>
 
@@ -88,7 +88,7 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="https://www.w3schools.com/">
+                          <a className="text_1_DNM" href="">
                             long established <br/>
                           </a>
                           <text className="text_2_DNM">
@@ -122,7 +122,7 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="https://www.w3schools.com/">
+                          <a className="text_1_DNM" href="">
                             long established <br/>
                           </a>
                           <text className="text_2_DNM">
@@ -156,7 +156,7 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="https://www.w3schools.com/">
+                          <a className="text_1_DNM" href="">
                             long established <br/>
                           </a>
                           <text className="text_2_DNM">
@@ -195,7 +195,7 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="https://www.w3schools.com/">
+                          <a className="text_1_DNM" href="">
                             long established <br/>
                           </a>
                           <text className="text_2_DNM">
@@ -229,7 +229,7 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="https://www.w3schools.com/">
+                          <a className="text_1_DNM" href="">
                             long established <br/>
                           </a>
                           <text className="text_2_DNM">
@@ -263,7 +263,7 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="https://www.w3schools.com/">
+                          <a className="text_1_DNM" href="">
                             long established <br/>
                           </a>
                           <text className="text_2_DNM">

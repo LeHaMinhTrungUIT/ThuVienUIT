@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import NewsBulletin from './components/NewsBulletin/NewsBulletin';
 import ContentNews from './components/NewsBulletin/ContentNews/ContentNews';
+import Service from './components/Service/Service';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <header className="App-header">
         <Header />        
       </header>
+      <Service/>
       <ContentNews/>
       <NewsBulletin/>
       <Content />
