@@ -25,13 +25,13 @@ class ContentNews extends React.Component {
             <div className="ContentNews">
               <div>
               <div class="sidenav">
-              <BsCaretUp size={40} color='slategray' style={{ marginTop: -5, marginLeft: 15}}/>
-              <a>48</a>
-              <BsCaretDown size={40} color='slategray' style={{ marginTop: -10, marginLeft: 15}}/>
-              <HiOutlineChatAlt2 size={35} color='slategray' style={{marginLeft: 17, marginTop: 15 }}/>
-              <a style={{fontSize: 20, marginLeft: 8}}>48</a>
-              <BsBookmark size={25} color='slategray' style={{marginLeft: 23 }}/>
-              <BsShare size={25} color='slategray' style={{marginLeft: 23, marginTop: 15}}/>
+              <BsCaretUp size={40} color='slategray' style={{ marginTop: -5, marginLeft: 18}}/>
+              <a style={{ marginLeft: 3}}>48</a>
+              <BsCaretDown size={40} color='slategray' style={{ marginTop: -8, marginLeft: 18}}/>
+              <HiOutlineChatAlt2 size={35} color='slategray' style={{marginLeft: 21, marginTop: 22 }}/>
+              <a style={{fontSize: 20, marginLeft: 11}}>48</a>
+              <BsBookmark size={25} color='slategray' style={{marginLeft: 25 }}/>
+              <BsShare size={25} color='slategray' style={{marginLeft: 25, marginTop: 18}}/>
 
               </div>
                 <div className="Content">

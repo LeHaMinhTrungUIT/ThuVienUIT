@@ -122,7 +122,7 @@ Thư Viên luôn tìm kiếm và cập nhật thêm nhiều tài liệu mới ch
 
                        </p>
                    ) : this.state.changeService == "btn2" ? (
-                    <p className="textarea1-Service" >
+                    <div className="textarea1-Service" >
                     * Mượn trả tài liệu (Áp dụng từ tháng 06/2016) <br/> <br/>
                         1. Tài liệu được mượn về: Sách kho mượn, giáo trình. <br/> <br/>
 
@@ -172,7 +172,7 @@ Mức phạt cụ thể như sau:
 <br/><br/>
 Sau 30 ngày kể từ ngày quá hạn tài liệu mà người mượn chưa trả hoặc nộp phạt tài liệu bị quá hạn thì Thư viện sẽ gửi danh sách đến các Khoa/Bộ môn/Phòng có liên quanhỗ trợ thông báo về danh sách người mượn nợ này (Các Khoa/Bộ môn và Phòng Tổ chức hành chính, Phòng Đào tạo Sau đại học, Phòng Đào tạo đại học, Phòng Công tác sinh viên). Nếu sau thời hạn 03 tháng kể từ ngày Thư viện và các Khoa/Bộ môn/Phòng có liên quan đã thông báo mà người mượn là sinh viên vẫn chưa trả hoặc đóng phạt tài liệu bị quá hạn thì sẽ bị xử lý bằng hình thức ngăn chặn đăng ký học phần trong học kì kế tiếp hoặc không xét tốt nghiệp (nếu là sinh viên/học viên cao học năm cuối).
 
-                    </p>
+                    </div>
                    ) : this.state.changeService == "btn3" ? (
                     <p className="textarea1-Service" >
 - Bạn có thể gửi sách tại tủ sách của thư viện, sách bạn gửi sẽ được thư viện gắn mã và cho sinh viên mượn. Quy trình mượn và quy định khi mượn sẽ giống như tài liệu của thư viện.

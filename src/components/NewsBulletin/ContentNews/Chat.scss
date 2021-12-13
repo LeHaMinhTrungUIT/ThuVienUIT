@@ -44,15 +44,16 @@ $gray: #9b9b9b;
 .form__field:focus {
   ~ .form__label {
     position: absolute;
-    top: 0;
+    top: -6px;
     display: block;
     transition: 0.2s;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #c4bfbf;;
     font-weight:700;    
+    
   }
-  padding-bottom: 6px;  
-  font-weight: 700;
+  padding-bottom: 4px;  
+  font-weight: 550;
   border-width: 3px;
   border-image: linear-gradient(to right, $primary,$secondary);
   border-image-slice: 1;
