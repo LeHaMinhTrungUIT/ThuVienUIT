@@ -8,7 +8,7 @@ function Content() {
                 <li>
                     <ul id="logoname">
                         <li><img src="https://haitrieu.com/wp-content/uploads/2021/10/Logo-DH-Cong-Nghe-Thong-Tin-UIT.png"></img></li>
-                        <li id="name"><p>THƯ VIỆN TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN</p></li>
+                        <li id="name"><b>THƯ VIỆN TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN</b></li>
                     </ul>
                 </li>
                 <li>

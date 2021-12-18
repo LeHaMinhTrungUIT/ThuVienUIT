@@ -26,10 +26,11 @@ function Footer() {
                         <li class="footertitle">Liên hệ</li>
                         <li>(08) 372 51993-128</li>
                         <li>Góp ý</li>
+                        <li>​Khu phố 6, Phường Linh Trung</li>
                     </ul>
                 </li>
             </ul>
-            <h3 id="lisence"> © 2021 Trường đại học Công nghệ Thông tin | ĐHQG TP.HCM</h3>
+            <h3> © 2021 Trường đại học Công nghệ Thông tin | ĐHQG TP.HCM</h3>
         </footer>
     );
 }

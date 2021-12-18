@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/Header';
-import Content from './components/Content';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import Hello from './components/Hello';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
         <Header />     
       </header>
       
-      <Content />
+      <Navigation />
+      <Hello />
       <Footer />
     </div>
   );
