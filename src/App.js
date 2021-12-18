@@ -11,6 +11,10 @@ import ContentNews from './components/NewsBulletin/ContentNews/ContentNews';
 import Service from './components/Service/Service';
 import { BrowserRouter,Router, Route, Link, NavLink, Routes } from "react-router-dom";
 
+/* npm install */
+/* npm install react-icons --save */
+/* npm install node-sass --save */
+/* npm install react-router-dom --save */
 
 
 
