@@ -9,7 +9,7 @@ import { BsEye } from 'react-icons/bs';
 import { HiOutlineChatAlt2 } from 'react-icons/hi';
 import Topic from './Topic';
 import Pagination from './Pagination'
-
+import { BrowserRouter,Router, Route, Link, NavLink, Routes } from "react-router-dom";
 
 
 
@@ -23,7 +23,6 @@ class NewsBulletin extends React.Component {
 
     render() {
         return (
-
           <div class="NewsBulletin">
             <div class="FeaturedArticle">
               <div className="Layout_FA_Content">
@@ -34,9 +33,9 @@ class NewsBulletin extends React.Component {
                     Bài Viết Nổi Bật <br/>
                   </text>
 
-                  <a className="text2_FA_Content" href="">
+                  <Link className="text2_FA_Content" to="/NewsBulletin/ContentNews">
                     World’s Most Dangerous Technology Ever Made. <br/>
-                  </a>
+                  </Link>
 
                   <text className="text3_FA_Content">
                     Ralph Hawkins . May 7th, 2019 (10 mins read)  <br/>
@@ -88,9 +87,9 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="">
+                          <Link className="text_1_DNM" to="/NewsBulletin/ContentNews">
                             long established <br/>
-                          </a>
+                          </Link>
                           <text className="text_2_DNM">
                           It is a long established fact that a reader 
                           will be distracted by the readable content 
@@ -122,9 +121,9 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="">
+                          <Link className="text_1_DNM" to="/NewsBulletin/ContentNews">
                             long established <br/>
-                          </a>
+                          </Link>
                           <text className="text_2_DNM">
                           It is a long established fact that a reader 
                           will be distracted by the readable content 
@@ -156,9 +155,9 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="">
+                          <Link className="text_1_DNM" to="/NewsBulletin/ContentNews">
                             long established <br/>
-                          </a>
+                          </Link>
                           <text className="text_2_DNM">
                           It is a long established fact that a reader 
                           will be distracted by the readable content 
@@ -195,9 +194,9 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="">
+                          <Link className="text_1_DNM" to="/NewsBulletin/ContentNews">
                             long established <br/>
-                          </a>
+                          </Link>
                           <text className="text_2_DNM">
                           It is a long established fact that a reader 
                           will be distracted by the readable content 
@@ -229,9 +228,9 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="">
+                          <Link className="text_1_DNM" to="/NewsBulletin/ContentNews">
                             long established <br/>
-                          </a>
+                          </Link>
                           <text className="text_2_DNM">
                           It is a long established fact that a reader 
                           will be distracted by the readable content 
@@ -263,9 +262,9 @@ class NewsBulletin extends React.Component {
                           <HiOutlineChatAlt2 size={25} color='slategray' style={{marginLeft: 30,  marginBottom: 1 }}/>
                         </div>
                         <div className="Content_left_DNM">
-                          <a className="text_1_DNM" href="">
+                          <Link className="text_1_DNM" to="/NewsBulletin/ContentNews">
                             long established <br/>
-                          </a>
+                          </Link>
                           <text className="text_2_DNM">
                           It is a long established fact that a reader 
                           will be distracted by the readable content 

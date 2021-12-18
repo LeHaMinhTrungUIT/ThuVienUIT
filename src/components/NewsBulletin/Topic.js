@@ -1,6 +1,8 @@
 import React from 'react';
 import './Topic.css';
 
+import { BrowserRouter,Router, Route, Link, NavLink, Routes } from "react-router-dom";
+
 /* npm install classnames */
 
 /* npm install react-icons --save */
@@ -104,7 +106,7 @@ class Topic extends React.Component {
                         <div className="Content2_Topic">
                          <text className="text1_Content_Topic">Sách&nbsp; </text>
                          <text className="text2_Content_Topic">- 6 Phút Đọc <br/> <br/></text>
-                         <a className="text3_Content_Topic" href="" style={{textDecoration: 'none'}}>long established <br/> </a>
+                         <Link className="text3_Content_Topic" to="/NewsBulletin/ContentNews" style={{textDecoration: 'none'}}>long established <br/> </Link>
                          <text className="text4_Content_Topic"> <br/>It is a long established fact that a reader will be distracted by <br/> </text>
                          <text className="text4_Content_Topic">the readable content of a page when looking at its layout. The  <br/> </text>
                          <text className="text4_Content_Topic">point of using Lorem Ipsum is that.... <br/> <br/> </text>
@@ -133,7 +135,7 @@ class Topic extends React.Component {
                         <div className="Content2_Topic">
                          <text className="text1_Content_Topic">Sách&nbsp; </text>
                          <text className="text2_Content_Topic">- 6 Phút Đọc <br/> <br/></text>
-                         <a className="text3_Content_Topic" href="" style={{textDecoration: 'none'}}>long established <br/> </a>
+                         <Link className="text3_Content_Topic" to="/NewsBulletin/ContentNews" style={{textDecoration: 'none'}}>long established <br/> </Link>
                          <text className="text4_Content_Topic"> <br/>It is a long established fact that a reader will be distracted by <br/> </text>
                          <text className="text4_Content_Topic">the readable content of a page when looking at its layout. The  <br/> </text>
                          <text className="text4_Content_Topic">point of using Lorem Ipsum is that.... <br/> <br/> </text>
@@ -163,7 +165,7 @@ class Topic extends React.Component {
                         <div className="Content2_Topic">
                          <text className="text1_Content_Topic">Sách&nbsp; </text>
                          <text className="text2_Content_Topic">- 6 Phút Đọc <br/> <br/></text>
-                         <a className="text3_Content_Topic" href="" style={{textDecoration: 'none'}}>long established <br/> </a>
+                         <Link className="text3_Content_Topic" to="/NewsBulletin/ContentNews" style={{textDecoration: 'none'}}>long established <br/> </Link>
                          <text className="text4_Content_Topic"> <br/>It is a long established fact that a reader will be distracted by <br/> </text>
                          <text className="text4_Content_Topic">the readable content of a page when looking at its layout. The  <br/> </text>
                          <text className="text4_Content_Topic">point of using Lorem Ipsum is that.... <br/> <br/> </text>
@@ -193,7 +195,7 @@ class Topic extends React.Component {
                         <div className="Content2_Topic">
                          <text className="text1_Content_Topic">Sách&nbsp; </text>
                          <text className="text2_Content_Topic">- 6 Phút Đọc <br/> <br/></text>
-                         <a className="text3_Content_Topic" href="" style={{textDecoration: 'none'}}>long established <br/> </a>
+                         <Link className="text3_Content_Topic" to="/NewsBulletin/ContentNews" style={{textDecoration: 'none'}}>long established <br/> </Link>
                          <text className="text4_Content_Topic"> <br/>It is a long established fact that a reader will be distracted by <br/> </text>
                          <text className="text4_Content_Topic">the readable content of a page when looking at its layout. The  <br/> </text>
                          <text className="text4_Content_Topic">point of using Lorem Ipsum is that.... <br/> <br/> </text>
@@ -222,7 +224,7 @@ class Topic extends React.Component {
                         <div className="Content2_Topic">
                          <text className="text1_Content_Topic">Sách&nbsp; </text>
                          <text className="text2_Content_Topic">- 6 Phút Đọc <br/> <br/></text>
-                         <a className="text3_Content_Topic" href="" style={{textDecoration: 'none'}}>long established <br/> </a>
+                         <Link className="text3_Content_Topic" to="/NewsBulletin/ContentNews" style={{textDecoration: 'none'}}>long established <br/> </Link>
                          <text className="text4_Content_Topic"> <br/>It is a long established fact that a reader will be distracted by <br/> </text>
                          <text className="text4_Content_Topic">the readable content of a page when looking at its layout. The  <br/> </text>
                          <text className="text4_Content_Topic">point of using Lorem Ipsum is that.... <br/> <br/> </text>
