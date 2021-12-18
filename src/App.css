@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -19,10 +15,24 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+#nav {
+  list-style-type: none;
+}
+
+#nav>li {
+  display: inline-block;
+}
+
+#nav li a {
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0px 24px;
+  display: block;
+  color: black;
 }
 
 .App-link {
@@ -81,4 +91,40 @@ li{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav navbar-nav a{text-decoration: none;}
+#logoname >li >img{
+  width: 87px;
+  
+}
+
+#logoname > li {
+  display: inline-block;
+  align-items: center;
+}
+
+#logoname li {
+  padding: 0px 20px;
+  vertical-align: middle;
+}
+
+#logoname {
+  padding-right: 500px;
+  padding-left: 0px;
+}
+
+#header2, #login {
+  list-style-type: none;
+}
+
+#login > li {
+  display: inline-block;
+}
+
+#header2 > li {
+  display: inline-block;
+}
+
+#login li a {
+  padding: 20px;
+  color: #1F1534;
+  text-decoration: none;
+}
