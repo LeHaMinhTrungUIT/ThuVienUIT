@@ -90,6 +90,10 @@ li{
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
+p{
+  font-size: 24px;
+  font-weight:600;
+}
 
 #logoname >li >img{
   width: 87px;
@@ -107,7 +111,7 @@ li{
 }
 
 #logoname {
-  padding-right: 500px;
+  padding-right: 320px;
   padding-left: 0px;
 }
 
@@ -127,4 +131,58 @@ li{
   padding: 20px;
   color: #1F1534;
   text-decoration: none;
+}
+
+#searchicon {
+  font-size: 30px;
+}
+
+#mainnavigation {
+  padding-left: 147px;
+}
+
+#mainnavigation > li {
+  display: inline-block;
+}
+
+#mainnavigation li a {
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+#name {
+  font-size: 24px;
+}
+
+#footercontent{
+  padding-top: 37px;
+}
+
+.footercontent  li {
+  padding-bottom: 10px;
+}
+
+.footercontent{
+  list-style-type: none;
+}
+
+#footercontent >li {
+  display: inline-block;
+}
+
+#footercontent li{
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+.footertitle {
+  font-size: 24px;
+  color: #427AEE;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+h3{
+  text-align: center;
+  font-weight: 100;
 }
