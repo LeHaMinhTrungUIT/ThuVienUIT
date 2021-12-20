@@ -14,12 +14,11 @@ $gray: #9b9b9b;
   border: 0;
   border-bottom: 2px solid $gray;
   outline: 0;
-  font-size: 16px;
   color: black;
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
-
+  font-size: 0.5rem;
   &::placeholder {
     color: transparent;
   }
@@ -34,7 +33,7 @@ $gray: #9b9b9b;
 .form__label {
     margin-top: -15px;
   position: absolute;
-  top: 0;
+  top: -10px;
   display: block;
   transition: 0.2s;
   font-size: 1rem;
@@ -44,16 +43,16 @@ $gray: #9b9b9b;
 .form__field:focus {
   ~ .form__label {
     position: absolute;
-    top: -6px;
+    top: -10px;
     display: block;
     transition: 0.2s;
     font-size: 0.8rem;
-    color: #c4bfbf;;
+    color: #c4bfbf;
     font-weight:700;    
     
   }
   padding-bottom: 4px;  
-  font-weight: 550;
+  font-weight: 450;
   border-width: 3px;
   border-image: linear-gradient(to right, $primary,$secondary);
   border-image-slice: 1;

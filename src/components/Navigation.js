@@ -17,7 +17,7 @@ function Content() {
                         <li id="searchicon"><a href='#'>⌕</a></li>
                         <li><a href="#">Đăng ký</a></li>
                         <li>|</li>
-                        <li><a href='#'>Đăng nhập</a></li>
+                        <li><Link to='/Login'>Đăng nhập</Link></li>
                     </ul>
                 </li>
                 <li>

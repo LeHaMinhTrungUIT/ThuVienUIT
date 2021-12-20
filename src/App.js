@@ -9,6 +9,7 @@ import Navigation from './components/Navigation';
 import NewsBulletin from './components/NewsBulletin/NewsBulletin';
 import ContentNews from './components/NewsBulletin/ContentNews/ContentNews';
 import Service from './components/Service/Service';
+import Login from './components/Login/Login';
 import { BrowserRouter,Router, Route, Link, NavLink, Routes } from "react-router-dom";
 
 /* npm install */
@@ -28,6 +29,7 @@ class App extends React.Component {
           <Route path="/Service" element={<ServiceApp />} />
           <Route path="/NewsBulletin/ContentNews" element={<ContentNewsApp/>} />
           <Route path="/NewsBulletin" element={<NewsBulletinApp />} />
+          <Route path="/Login" element={<LoginApp />} />
         </Routes>    
     </div>
     </BrowserRouter>
@@ -82,6 +84,19 @@ function  ContentNewsApp() {
         </header>
         <Navigation/>
         <ContentNews/>
+        <Footer/>
+    </div>
+  );
+}
+
+function  LoginApp() {
+  return (
+    <div className="App">
+        <header className="App-header">
+        <Header />     
+        </header>
+        <Navigation/>
+        <Login/>
         <Footer/>
     </div>
   );

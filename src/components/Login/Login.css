@@ -1,0 +1,372 @@
+.Login {
+    background-color: white;
+    width: 1440px;
+    margin: auto;
+    height: 788px;
+}
+
+.content1_Login {
+    width: 824.87px;
+height: 100%;
+float: left;
+margin-left: 32px;
+background-color: white;
+}
+
+.img1_Login {
+    margin-top: 117px;
+    width: 824.87px;
+    height: 552px;
+    background: url(./images/Untitled1.png);
+}
+.content2_Login {
+    margin-top: 30px;
+    width: 562px;
+height: 80%;
+float: left;
+margin-left: 20px;
+background-color: white;
+}
+
+.text1_Login {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 56px;
+/* or 233% */
+
+
+/* black/2 5 */
+
+color: #444B59;
+}
+
+.text2_Login {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+
+/* black/2 5 */
+
+color: #444B59;
+}
+
+.frame1 {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 32px;
+
+position: static;
+width: 456px;
+height: 57px;
+left: 0px;
+top: 61px;
+
+/* white */
+
+background: #FFFFFF;
+/* 1 */
+
+border: 2px solid #427AEE;
+box-sizing: border-box;
+border-radius: 80px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 5px 0px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.1em;
+color: #221D1C;
+}
+
+
+.frame1:focus {
+    outline: none;
+    
+}
+
+.frame1:focus::placeholder {
+    color: transparent;
+}
+
+.frame1::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+
+/* blue/ 1 9 */
+
+color: #C8D3F9;
+}
+
+
+.frame2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    
+    position: static;
+    width: 458px;
+    height: 56px;
+    left: 0px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+    /* 1 */
+    
+    border: 2px solid #427AEE;
+    box-sizing: border-box;
+    border-radius: 80px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 5px 0px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.1em;
+color: #221D1C;
+text-decoration: none;
+}
+
+
+.frame2:focus {
+    outline: none;
+    
+    text-decoration: none;
+}
+
+.frame2:focus::placeholder {
+    color: transparent;
+}
+
+.frame2::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+
+/* blue/ 1 9 */
+
+color: #C8D3F9;
+}
+
+
+
+.frame3 {
+   
+ 
+    width: 3450px;
+    height: 40px;
+    left: 0px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+    /* 1 */
+    
+   border: none;
+    
+    /* Inside Auto Layout */
+    
+  
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.1em;
+color: #221D1C;
+text-decoration: none;
+float: left;
+}
+
+
+.frame3:focus {
+    outline: none;
+    
+}
+
+.frame3:focus::placeholder {
+    color: transparent;
+}
+
+.frame3::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+
+/* blue/ 1 9 */
+
+color: #C8D3F9;
+}
+
+.cb_Login {
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #427AEE;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+
+.text3_Login {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+margin-left: 5px;
+margin-top: -5px;
+/* black/2 5 */
+
+color: #6f7580;
+}
+
+.text4_Login {
+    margin-left: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1 */
+
+color: #427AEE;
+}
+
+.content3_Login {
+    margin-top: 80px;
+    width: 450px;
+    height: 55px;
+}
+
+/* CSS */
+.button-27 {
+  appearance: none;
+  background: #6294FC;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+    border-radius: 80px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  border: none;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.content4_Login
+{
+    margin-top: 32px;
+    Height: 27px;
+    background-color: white;
+    margin: center;
+}
+
+.content5_Login {
+    margin-top: 13px;
+    margin-left: 30px;
+    float: left;
+    width: 150px;
+    background-color: white;
+}
+
+
+.line1_Login {
+    border-top: 2px solid rgb(189, 189, 255);
+    height: 2px;
+    width: 100px;
+}
+
+.text5_Login {
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.1em;
+
+/* black/2 5 */
+
+color: #444B59;
+width: 60px;
+background-color: white;
+float: left;
+
+}
