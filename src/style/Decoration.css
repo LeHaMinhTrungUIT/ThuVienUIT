@@ -1,0 +1,47 @@
+.decoration1>div,
+.decoration2>div,
+.decoration3>div{
+    display: inline-block;
+}
+
+.decoration1{
+    padding-left: 140px;
+    padding-top: 200px;
+}
+
+#image21{
+    padding-right: 50px;
+}
+
+.image21button{
+    background-color: white;
+  border: 2px solid #458FF6;
+  color: #458FF6;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.image21button:hover{
+    background-color: #458FF6;
+  border: none;
+  color: white;
+}
+
+.decoration2{
+    padding-top: 200px;
+    padding-left: 300px;
+}
+
+.decoration3{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.decoration3 >li{
+    padding-right: 100px;
+}

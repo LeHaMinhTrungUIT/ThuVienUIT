@@ -1,0 +1,167 @@
+
+.ContentNews {
+    background-color: white;
+    width: 1440px;
+    margin: auto;
+    margin-top: 148px;
+    text-align: left;
+}
+
+.Content {
+    width: 800px;
+    background-color: white;
+    height: 2514px;
+    margin-left: 350px;
+}
+
+.Content1 {
+    width: 112px;
+    height: 26px;
+    background: #283A61;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.text1 {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: rgba(255, 255, 255, 0.85);
+}
+
+.text2 {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 58px;
+color: #000000;
+}
+
+.text3 {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+color: #515151;
+}
+
+.Content2 {
+    margin-top: 18px;
+    width: 800px;
+    height: 278px;
+    background-color: pink;
+    background: url(../images/Untitled13.png);
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+}
+
+.text4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 160%;
+/* or 42px */
+color: #434343;
+text-justify: inter-word;
+text-align: justify;
+}
+
+.text5 {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+color: #434343;
+}
+
+.Content3 {
+    margin-top: 40px;
+    width: 800px;
+height: 238px;
+background: #F5F5F5;
+border: 1px solid #DDDDDD;
+box-sizing: border-box;
+border-radius: 7px;
+}
+
+.text6 {
+    margin-top: 33px;
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+
+
+color: #000000;
+}
+
+.text7 {
+    margin-top: 15px;
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-decoration: underline;
+
+color: #303030;
+}
+
+.text8 {
+    margin-top: 30px;
+    width: 800px;
+height: 38px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+
+
+color: #303030;
+}
+
+.sidenav {
+    margin-left: 115px;
+    width: 77px;
+    height: 309px;
+    position:sticky;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    float: left;
+    border-radius: 11px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 40px;
+color:slategray;
+margin-top: -15px;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }

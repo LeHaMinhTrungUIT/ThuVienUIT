@@ -12,7 +12,7 @@ function Hello(){
                     <br></br>hiệu quả phục vụ cho việc giảng dạy, học tập và 
                     <br></br>nghiên cứu khoa học chính yếu trong lĩnh vực 
                     <br></br> Công nghệ thông tin và trong các lĩnh vực có liên quan.</p>
-                    <button name="hellobutton" type="button">Giới thiệu</button>
+                    
                 </li>
                 <li>
                     <div id="helloimg">
@@ -20,6 +20,7 @@ function Hello(){
                     </div>
                 </li>                
             </ul>
+            <button class="hellobutton" type="button">Giới thiệu</button>
         </div>
     );
 }

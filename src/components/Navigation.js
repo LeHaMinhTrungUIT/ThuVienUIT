@@ -1,4 +1,6 @@
 import React from 'react';
+import '../style/Navigation.css'
+import { BrowserRouter,Router, Route, Link, NavLink, Routes } from "react-router-dom";
 
 function Content() {
 
@@ -14,28 +16,23 @@ function Content() {
                 <li>
                     <ul id="login">
                         <li id="searchicon"><a href='#'>⌕</a></li>
-                        <li><a href="#">Đăng ký</a></li>
+                        <li id="dangky"><a href="#">Đăng ký</a></li>
                         <li>|</li>
-                        <li><a href='#'>Đăng nhập</a></li>
+                        <li id="dangnhap"><Link to='/Login'>Đăng nhập</Link></li>
                     </ul>
                 </li>
                 <li>
                     <ul id="mainnavigation">
-                        <li><a href='#'>Trang chủ</a></li>
-                        <li><a href='#'>Bảng tin</a></li>
-                        <li><a href='#'>Tra cứu tài liệu</a></li>
-                        <li><a href='#'>Dịch vụ</a></li>
-                        <li><a href='#'>Forum</a></li>
-                        <li><a href='#'>Liên hệ</a></li>
+                        <li><Link to='/'>Trang chủ</Link></li>
+                        <li><Link to='/NewsBulletin'>Bảng tin</Link></li>
+                        <li><Link to='/Search'>Tra cứu tài liệu</Link></li>
+                        <li><Link to='/Service'>Dịch vụ</Link></li>
+                        <li><Link to='/Forum'>Forum</Link></li>
+                        <li><Link to='/Contacts'>Liên hệ</Link></li>
                     </ul>
                 </li>
             </ul>
-
-
-
         </div>
-
-
     );
 }
 

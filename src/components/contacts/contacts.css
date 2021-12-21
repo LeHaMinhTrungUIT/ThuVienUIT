@@ -1,0 +1,146 @@
+
+
+
+.headerTitle {
+  width: 424px;
+  height: 112px;
+  left: 88px;
+  top: 268px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.headerColumn {
+  width: 196px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+
+  /* 3 */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  /* identical to box height, or 233% */
+
+  color: #000000;
+}
+
+.rect1 {
+  width: 309px;
+  height: 40px;
+  left: 798px;
+  top: 1046px;
+
+  /* 5 */
+
+  border: 1px solid #221d1c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.rect2 {
+  width: 309px;
+  height: 100px;
+  left: 798px;
+  top: 1203px;
+
+  /* 5 */
+
+  border: 1px solid #221d1c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.lightBlueTheme {
+  margin-left: 96px;
+
+  width: 118px;
+  height: 33px;
+  left: 12px;
+  top: 16px;
+
+  /* 1 */
+
+  background: #427aee;
+  /* 5 */
+
+  border: 1px solid #dbe7ff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.lightBlueTheme:hover {
+  background: #4d73c0;
+}
+
+.lightBlueTheme:active {
+  background: #4d73c0;
+  transform: translateY(2px);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact {
+  margin-top: 0px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.map {
+  margin-top: 31px;
+
+  height: 442px;
+  width: 1294px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+
+  background: url(https://s3-alpha-sig.figma.com/img/b4d4/bce9/f1fb52bc6dfc81b35ff83f3f0126f630?Expires=1641168000&Signature=GkHClCSxHOtItQBatGHAr-h~CGmSMC2uAIlxJoxNoxoX~1tH1OdwgVNy0rR7Ba0-h5ZPCNPsS8jcL-H~MXKt7DzP0TpYaH938LNgwaBG3l7qnXACS6V9c3eSdfkdYuYnpjg6MDU0P3zmGyUnef5c9LUGU3HcSwZBSfDlWCM8SryeDBfdIgosu68WiBVcEc8xMTVsIL87H5aciAtk1etIpYX1kpE6A-~pNDasvypeYWT3kLSBIRUGyINp34JObaEPDRHqzP~wZWFca~2iQx5yDwU5OPusxHxcklgnxlsqcw8njIERnxztya41W5DAZrGwSXHXSedju21gHkcmiEESUA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.content {
+  margin-left: 71px;
+}
+
+.imageContext {
+  margin-top: 25px;
+
+  width: 502px;
+  height: 30px;
+  left: 3px;
+  top: 467px;
+
+  /* 5 */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+}
+
