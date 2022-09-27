@@ -1,0 +1,68 @@
+.column {
+  float: left;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sidepanelText {
+  left: 7.39%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height, or 155% */
+
+  letter-spacing: 0.03em;
+
+  /* Primary */
+
+  color: #1682fd;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.sidePanelHeader {
+  left: 10.43%;
+  right: 8.7%;
+  top: -21.43%;
+  bottom: 21.43%;
+
+  /* 7 */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.rightPanel {
+  line-height: 32px;
+}
+
+.emptyText {
+  color: #000000;
+  text-decoration: none;
+}
